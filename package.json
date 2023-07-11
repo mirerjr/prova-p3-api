@@ -1,0 +1,23 @@
+{
+  "name": "prova-p3-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mirer Balbino de Andrade Junior",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.1"
+  }
+}

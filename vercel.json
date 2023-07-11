@@ -2,9 +2,12 @@
     "name": "prova-p3-api",
     "version": "1.0.0",
     "public": true,
-    "build": {
-        "use": "@vercel/node"
-    },
+    "builds": [
+        {
+            "src": "api/index.js",
+            "use": "@vercel/node"
+        }
+    ],
     "routes": [
         {
             "src": "/(.*)",
